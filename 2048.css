@@ -40,8 +40,18 @@ body {
     padding-bottom: 40px;
 }
 
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
 hr {
     width: 500px;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
 }
 
 #board {
