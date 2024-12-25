@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Landing Page Section */
+#landing-page {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #001f3f;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.snow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('snowflake.png') repeat top center;
+    z-index: -1;
+    animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+    0% {
+        background-position: 0 -100px;
+    }
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 20px;
+    color: #f8f9fa;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.center-image {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #fff;
+}
+
+/* Scroll Down Separator */
+.scroll-down {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.scroll-down span {
+    font-size: 2em;
+    display: block;
+}
+
+/* Game Section */
+#game-section {
+    padding: 50px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
