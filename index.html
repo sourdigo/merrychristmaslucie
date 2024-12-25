@@ -28,25 +28,5 @@
         <h2>Score: <span id="score">0</span></h2>
         <div id="board"></div>
     </section>
-
-    <!-- JavaScript -->
-    <script>
-        // Disable scrolling with ArrowUp and ArrowDown keys
-        document.addEventListener("keydown", function (event) {
-            if (event.code === "ArrowUp" || event.code === "ArrowDown") {
-                event.preventDefault();
-            }
-        });
-
-        // Snow toggle feature
-        document.getElementById("toggle-snow").addEventListener("click", function () {
-            const snowElement = document.getElementById("snow");
-            if (snowElement.style.display === "none") {
-                snowElement.style.display = "block";
-            } else {
-                snowElement.style.display = "none";
-            }
-        });
-    </script>
 </body>
 </html>
