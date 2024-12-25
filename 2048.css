@@ -27,6 +27,7 @@ body {
 }
 
 .overlay-text {
+    padding-top: 50px;
     position: absolute;
     text-align: center;
     color: #fff;
