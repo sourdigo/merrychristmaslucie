@@ -34,7 +34,7 @@ hr {
 }
 
 .x2 {
-    background-color: #eee4da;
+    background-color: #eee4da80;
     color: white;
     background-image: url('soobinpics/soobin.jpg');
     background-size: cover;
@@ -42,7 +42,7 @@ hr {
 }
 
 .x4 {
-    background-color: #ece0ca;
+    background-color: #ece0ca80;
     color: white;  
     background-image: url('soobinpics/soobin2.jpeg');
     background-size: cover;
@@ -50,7 +50,7 @@ hr {
 }
 
 .x8 {
-    background-color: #f4b17a;
+    background-color: #f4b17a80;
     color: white;  
     background-image: url('soobinpics/soobin3.jpeg');
     background-size: cover;
@@ -58,7 +58,7 @@ hr {
 }
 
 .x16{
-    background-color: #f59575;
+    background-color: #f5957580;
     color: white;  
     background-image: url('soobinpics/soobin4.jpg');
     background-size: cover;
@@ -66,7 +66,7 @@ hr {
 }
 
 .x32{
-    background-color: #f57c5f;
+    background-color: #f57c5f80;
     color: white;  
     background-image: url('soobinpics/soobin5.png');
     background-size: cover;
@@ -74,7 +74,7 @@ hr {
 }
 
 .x64{
-    background-color: #f65d3b;
+    background-color: #f65d3b80;
     color: white;  
     background-image: url('soobinpics/soobin6.jpg');
     background-size: cover;
@@ -82,7 +82,7 @@ hr {
 }
 
 .x128{
-    background-color: #edce71;
+    background-color: #edce7180;
     color: white;  
     background-image: url('soobinpics/soobin7.jpeg');
     background-size: cover;
@@ -90,7 +90,7 @@ hr {
 }
 
 .x256{
-    background-color: #edcc63;
+    background-color: #edcc6380;
     color: white;  
     background-image: url('soobinpics/soobin8.webp');
     background-size: cover;
@@ -98,7 +98,7 @@ hr {
 }
 
 .x512{
-    background-color: #edc651;
+    background-color: #edc65180;
     color: white;  
     background-image: url('soobinpics/soobin9.webp');
     background-size: cover;
@@ -106,7 +106,7 @@ hr {
 }
 
 .x1024{
-    background-color: #eec744;
+    background-color: #eec74480;
     color: white;  
     background-image: url('soobinpics/soobin11.jpg');
     background-size: cover;
@@ -114,7 +114,7 @@ hr {
 }
 
 .x2048{
-    background-color: #ecc230;
+    background-color: #ecc23080;
     color: white;  
     background-image: url('soobinpics/soobin12.jpg');
     background-size: cover;
@@ -122,7 +122,7 @@ hr {
 }
 
 .x4096 {
-    background-color: #fe3d3d;
+    background-color: #fe3d3d80;
     color: white;  
     background-image: url('soobinpics/soobin13.jpg');
     background-size: cover;
@@ -130,7 +130,7 @@ hr {
 }
 
 .x8192 {
-    background-color: #ff2020;
+    background-color: #ff202080;
     color: white;  
     background-image: url('soobinpics/soobin14.jpg');
     background-size: cover;
