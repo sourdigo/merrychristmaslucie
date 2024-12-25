@@ -37,64 +37,90 @@ hr {
 .x2 {
     color: #727371;
     background-image: url('soobinpics/soobin.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .x4 {
     color: #727371;
     background-image: url('soobinpics/soobin2.jpeg');
+    background-size: cover;
+    background-position: center;
 }
 
 .x8 {
     color: white;
     background-image: url('soobinpics/soobin3.jpeg');
+    background-size: cover;
+    background-position: center;
 }
 
 .x16{
     color: white;
     background-image: url('soobinpics/soobin4.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .x32{
     color: white;
     background-image: url('soobinpics/soobin5.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .x64{
     color: white;
     background-image: url('soobinpics/soobin6.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .x128{
     color: white;
     background-image: url('soobinpics/soobin7.jpeg');
+    background-size: cover;
+    background-position: center;
 }
 
 .x256{
     color: white;
     background-image: url('soobinpics/soobin8.webp');
+    background-size: cover;
+    background-position: center;
 }
 
 .x512{
     color: white;
     background-image: url('soobinpics/soobin9.webp');
+    background-size: cover;
+    background-position: center;
 }
 
 .x1024{
     color: white;
     background-image: url('soobinpics/soobin11.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .x2048{
     color: white;
     background-image: url('soobinpics/soobin12.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .x4096 {
     color: white;
     background-image: url('soobinpics/soobin13.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .x8192 {
     color: white;
     background-image: url('soobinpics/soobin14.jpg');
+    background-size: cover;
+    background-position: center;
 }
