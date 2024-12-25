@@ -39,6 +39,4 @@ body, html {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     margin: 0;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for better readability */
-    border-radius: 10px;
 }
