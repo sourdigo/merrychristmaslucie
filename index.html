@@ -1,29 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>2048 & Merry Christmas</title>
-        <link rel="stylesheet" href="2048.css">
-        <link rel="stylesheet" href="landing.css">
-        <script src="2048.js" defer></script>
-    </head>
-    
-    <body>
-        <button id="toggle-snow" class="toggle-button">Toggle Snow</button>
-        <section id="landing-page">
-            <div class="snow"></div>
-            <div class="content">
-                <img src="your-image.jpg" alt="Christmas Image" class="center-image">
-                <h1>Merry Christmas Lucie!</h1>
-            </div>
-        </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 & Merry Christmas</title>
+    <link rel="stylesheet" href="2048.css">
+    <link rel="stylesheet" href="landing.css">
+    <script src="2048.js" defer></script>
+</head>
+<body>
+    <!-- Toggle Button -->
+    <button id="toggle-snow" class="toggle-button">Toggle Snow</button>
 
-        <section id="game-section">
-            <h1>2048</h1>
-            <hr>
-            <h2>Score: <span id="score">0</span></h2>
-            <div id="board"></div>
-        </section>
-    </body>
+    <!-- Landing Page -->
+    <section id="landing-page">
+        <div class="snow" id="snow"></div>
+        <div class="content">
+            <img src="your-image.jpg" alt="Christmas Image" class="center-image">
+            <h1>Merry Christmas Lucie!</h1>
+        </div>
+    </section>
+
+    <!-- 2048 Game -->
+    <section id="game-section">
+        <h1>2048</h1>
+        <hr>
+        <h2>Score: <span id="score">0</span></h2>
+        <div id="board"></div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        // Disable scrolling with ArrowUp and ArrowDown keys
+        document.addEventListener("keydown", function (event) {
+            if (event.code === "ArrowUp" || event.code === "ArrowDown") {
+                event.preventDefault();
+            }
+        });
+
+        // Snow toggle feature
+        document.getElementById("toggle-snow").addEventListener("click", function () {
+            const snowElement = document.getElementById("snow");
+            if (snowElement.style.display === "none") {
+                snowElement.style.display = "block";
+            } else {
+                snowElement.style.display = "none";
+            }
+        });
+    </script>
+</body>
 </html>
