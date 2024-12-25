@@ -6,6 +6,15 @@
     <title>2048 & Merry Christmas</title>
     <link rel="stylesheet" href="2048.css">
     <script src="2048.js" defer></script>
+    <script defer>
+        // Disable scrolling with arrow keys
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || 
+                event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+                event.preventDefault();
+            }
+        });
+    </script>
 </head>
 <body>
   <!-- Landing Page -->
